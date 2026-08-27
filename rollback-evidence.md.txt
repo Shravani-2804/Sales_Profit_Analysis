@@ -1,0 +1,37 @@
+# Rollback Evidence
+
+## Project
+Sales & Profit Analysis Dashboard
+
+## Rollback Strategy
+
+The Power BI report is maintained as a version-controlled project.
+
+A previous working version of the `.pbix` report is retained before major changes. If a new version causes an issue, the previous working version can be restored.
+
+## Rollback Procedure
+
+1. Identify the last working version of `Sales_Profit_Analysis.pbix`.
+2. Restore the previous version from the GitHub repository/backup.
+3. Open the restored `.pbix` file in Power BI Desktop.
+4. Refresh the dataset.
+5. Verify the four report pages:
+   - Business Overview
+   - Regional Analysis
+   - Product Analysis
+   - Recommendations
+6. Verify the KPI cards and visualizations.
+7. Save and republish the restored version if required.
+
+## Rollback Validation
+
+The restored version should be checked for:
+- Dataset loading
+- KPI calculations
+- Report page navigation
+- Charts and visualizations
+- Titles and business insights
+
+## Status
+
+Rollback procedure documented and prepared for the project.
